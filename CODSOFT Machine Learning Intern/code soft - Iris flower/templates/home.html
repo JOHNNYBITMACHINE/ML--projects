@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Flower Classification</title>
+    <link rel="stylesheet" href="design.css" type="text/css">
+</head>
+<body style="background: linear-gradient(135deg,#43CBFF 10%, #9708CC 100%)  no-repeat;">
+    <h1 style="text-align: center;
+    padding: 1%;"
+    
+    
+    
+    > Iris Flower Classification </h1>
+
+
+  
+    
+    <br> 
+
+    <h2 style="padding: 0.1%; text-align: center;">
+
+
+        
+        <form method="POST" action="/predict" >
+
+
+        <label for="sepal_length">Sepal Length:</label>
+        <input type="number" name="sepal_length" step="0.1" required><br>
+        <br>
+
+
+
+        <label for="sepal_width">Sepal Width:</label>
+        <input type="number" name="sepal_width" step="0.1" required><br>
+
+        <br>
+
+
+
+        <label for="petal_length">Petal Length:</label>
+        <input type="number" name="petal_length" step="0.1" required><br>
+
+        <br>
+        
+
+        <label for="petal_width">Petal Width:</label>
+        <input type="number" name="petal_width" step="0.1" required><br>
+        <br>
+
+
+
+
+        <h1 style="color: rgb(109, 32, 175); text-align: center;">
+            <input type="submit" value="Predict" 
+            style="background-color: rgb(187, 21, 71); size: 1cm; border: 5%; text-decoration: underline; color: white; height: 50px; width:80px;"></h1>
+    </form>
+    </h2>
+
+    <br><br>
+    <br>
+
+
+
+    <h1 style="text-align: center;">{{result}}</h1>
+</body>
+</html>

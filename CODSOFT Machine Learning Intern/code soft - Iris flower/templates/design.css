@@ -1,0 +1,15 @@
+.head{
+    text-align: center;
+    padding: 10%;
+    text-shadow: 10,20;
+
+
+}
+
+.dam{
+    background-color: rgb(74, 132, 146);
+    text-align: center;
+    text-decoration: dotted;
+    text-shadow: 1px, 2px;
+    border: 12px;
+}
